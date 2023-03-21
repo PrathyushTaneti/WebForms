@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForms", "WebForms.csproj", "{8874D25F-A7C2-4474-8D52-DEDBC31B93E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E80A230E-2A05-4E26-8505-F3B2D4769D0A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectNewPrices", "ProjectNewPrices\ProjectNewPrices.csproj", "{BBD80B05-AFA8-4A2D-8567-C45864AE74C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8874D25F-A7C2-4474-8D52-DEDBC31B93E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8874D25F-A7C2-4474-8D52-DEDBC31B93E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8874D25F-A7C2-4474-8D52-DEDBC31B93E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8874D25F-A7C2-4474-8D52-DEDBC31B93E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD80B05-AFA8-4A2D-8567-C45864AE74C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD80B05-AFA8-4A2D-8567-C45864AE74C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD80B05-AFA8-4A2D-8567-C45864AE74C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD80B05-AFA8-4A2D-8567-C45864AE74C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41B51544-30F9-4D71-96D4-574B1385792E}
+	EndGlobalSection
+EndGlobal
