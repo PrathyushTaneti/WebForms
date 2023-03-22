@@ -1,8 +1,23 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prices.aspx.cs" Inherits="WebForms.SampleTwo" MasterPageFile="~/Site.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prices.aspx.cs" Inherits="WebForms.SampleTwo" MasterPageFile="~/Site.Master" ViewStateMode="Enabled"%>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server" ID="SampleTwo">
-    <h1>Get A Base Custom Price
-    </h1>
+
+    <div>
+        <h1>View State Example</h1>
+        <asp:Literal ID="viewState" runat="server" Text="" />
+    </div>
+
+    <div class="form-group">
+        <label>Name</label>
+        <asp:TextBox ID="Name" runat="server" CssClass="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Mobile Number</label>
+        <asp:TextBox ID="Number" runat="server" CssClass="form-control" />
+    </div>
+
+
+    <h1>Get A Base Custom Price</h1>
 
     <div class="form-group">
         <label>Your State</label>
@@ -31,7 +46,13 @@
     </div>
 
     <div class="jumbotron">
-        <h3>Your Custom Price : <asp:Literal ID="ItCustomerPrice" runat="server" Text=""/> </h3>
+        <h3>Your Custom Price :
+            <asp:Literal ID="ItCustomerPrice" runat="server" Text="" />
+        </h3>
+    </div>
+
+    <div class="form-group">
+        <asp:Button ID="submitButton" runat="server" CssClass="btn btn-primary" Text="Submit" OnClick="submitButton_Click"/>
     </div>
 
 </asp:Content>

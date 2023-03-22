@@ -11,53 +11,53 @@ namespace WebForms
 {
 
 
-    public partial class SampleTwo
+    public partial class ValidationControls
     {
 
         /// <summary>
-        /// viewState control.
+        /// name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal viewState;
+        protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
-        /// Name control.
+        /// rqName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Name;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqName;
 
         /// <summary>
-        /// Number control.
+        /// age control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Number;
+        protected global::System.Web.UI.WebControls.TextBox age;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// rqAge control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqAge;
 
         /// <summary>
-        /// ItCustomerPrice control.
+        /// range control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ItCustomerPrice;
+        protected global::System.Web.UI.WebControls.RangeValidator range;
 
         /// <summary>
         /// submitButton control.

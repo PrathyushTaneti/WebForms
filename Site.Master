@@ -61,7 +61,9 @@
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/Sample">Sample</a></li>
-                          <li><a runat="server" href="~/SampleTwo">SampleTwo</a></li>
+                          <li><a runat="server" href="~/Prices">Price</a></li>
+                          <li><a runat="server" href="~/PageLifeCycle">PageLifeCycle</a></li>
+
                     </ul>
                 </div>
             </div>

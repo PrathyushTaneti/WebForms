@@ -11,61 +11,52 @@ namespace WebForms
 {
 
 
-    public partial class SampleTwo
+    public partial class PageLifeCycle
     {
 
         /// <summary>
-        /// viewState control.
+        /// lblInit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal viewState;
+        protected global::System.Web.UI.WebControls.Literal lblInit;
 
         /// <summary>
-        /// Name control.
+        /// IblPageLoad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Name;
+        protected global::System.Web.UI.WebControls.Literal IblPageLoad;
 
         /// <summary>
-        /// Number control.
+        /// lblPostBack control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Number;
+        protected global::System.Web.UI.WebControls.Literal lblPostBack;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// lblButtonEvent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.Literal lblButtonEvent;
 
         /// <summary>
-        /// ItCustomerPrice control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ItCustomerPrice;
-
-        /// <summary>
-        /// submitButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submitButton;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
     }
 }
